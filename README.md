@@ -10,9 +10,9 @@ SafeChat is a lightweight, fast, and AI-powered real-time chat moderation system
 This repository contains an evolving prototype developed as part of a hackathon.
 Core architecture and model pipelines are Demonstrated.
 
-BiLSTM & RoBERTa_base model is implemented,trained and tested on small dataset. fully trained Model demonstration at the end of the project, respective results are updated on the repository.
+BiLSTM & RoBERTa_base model is implemented, trained and tested on a demo (small) dataset, respective results are updated on the repository fully trained Model demonstration at the end of the project.
 
-remaining components will be finalized before the live prototype demonstration.
+Remaining components will be finalized before the live prototype demonstration.
 
 ---
 

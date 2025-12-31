@@ -1,6 +1,6 @@
 torch
 transformers
-hugging face 
+huggingface
 datasets
 scikit-learn
 fastapi

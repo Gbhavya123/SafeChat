@@ -1,1 +1,11 @@
-
+torch
+transformers
+hugging face 
+datasets
+scikit-learn
+fastapi
+uvicorn
+react
+postgresql
+mysql
+python

@@ -1,4 +1,4 @@
-# 🛡️ SafeChat – Real-Time Chat Moderation Assistant
+# 🛡️ SafeChat – Real-Time Chat Moderation Application
 
 SafeChat is a lightweight, fast, and AI-powered real-time chat moderation system designed to detect and prevent toxic, abusive, and unsafe messages before they appear in conversations. Instead of punishment, SafeChat promotes polite guidance, helping users communicate better while maintaining a safe and professional environment.
 
@@ -27,6 +27,18 @@ SafeChat is a lightweight, fast, and AI-powered real-time chat moderation system
 
 - Lightweight, fast, and scalable architecture
 
+## 🧠 How It Works
+
+1. User sends a message
+
+2. SafeChat analyzes it instantly
+
+3. If safe → message is posted
+
+4. If harmful → message is blocked/hidden
+
+5. User receives a polite alternative suggestion
+
 ## ⚙️ Our Technology Stack
 
 - NLP & Machine Learning
@@ -43,17 +55,9 @@ SafeChat is a lightweight, fast, and AI-powered real-time chat moderation system
  
 - Deployment: Cloud-ready & scalable
 
-## 🧠 How It Works
+## 🚀 Technical Flow
 
-1. User sends a message
-
-2. SafeChat analyzes it instantly
-
-3. If safe → message is posted
-
-4. If harmful → message is blocked/hidden
-
-5. User receives a polite alternative suggestion
+  <img width="2816" height="1536" alt="Image" src="https://github.com/user-attachments/assets/a9a95bdb-d6cf-43b0-bc4b-16163b2cba3f" />
 
 ## 🎯 Use Cases
 

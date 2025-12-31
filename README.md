@@ -3,15 +3,47 @@
 SafeChat is a lightweight, fast, and AI-powered real-time chat moderation system designed to detect and prevent toxic, abusive, and unsafe messages before they appear in conversations. Instead of punishment, SafeChat promotes polite guidance, helping users communicate better while maintaining a safe and professional environment.
 
 ---
+#  Toxic Chat Moderation System
 
-## 🚨 Problem vs SafeChat Solution
+🚧 **Project Status: ---Active Development--- (Hackathon Prototype)** 🚧
+
+This repository contains an evolving prototype developed as part of a hackathon.
+Core architecture and model pipelines are Demonstrated.
+
+BiLSTM & RoBERTa_base model is implemented,trained and tested on small dataset. fully trained Model demonstration at the end of the project, respective results are updated on the repository.
+
+remaining components will be finalized before the live prototype demonstration.
+
+---
+
+## Development Roadmap
+
+### ✅ Completed
+- Dataset ingestion & EDA
+- RoBERTa fine-tuning pipeline
+- BiLSTM baseline model
+- Evaluation metrics (F1, Precision, Recall)
+- Project structure & configs
+
+### 🚧 In Progress
+- Ensemble inference logic
+- FastAPI integration
+- Real-time moderation flow
+
+### ⏳ Planned (Before Demo Day)
+- Live chat moderation UI
+- Model optimization & pruning
+- Final performance benchmarking
+
+
+## Problem vs SafeChat Solution
 
 | 🔴 Problem | 🟢 SafeChat Solution |
 |-----------|---------------------|
 | Slow manual moderation | Instant AI moderation |
 | Keyword-based filtering | Context-aware AI |
 | Punishment-based actions | Polite guidance |
-| High false positives | Ensemble AI (95%+ accuracy) |
+| High false positives | Ensemble AI (High accuracy, Less false positives) |
 
 ## ⚡Key Features
 
@@ -35,7 +67,7 @@ SafeChat is a lightweight, fast, and AI-powered real-time chat moderation system
 
 3. If safe → message is posted
 
-4. If harmful → message is blocked/hidden
+4. If Toxic/harmful → message is blocked/hidden
 
 5. User receives a polite alternative suggestion
 
@@ -43,9 +75,13 @@ SafeChat is a lightweight, fast, and AI-powered real-time chat moderation system
 
 - NLP & Machine Learning
 
-- RoBERTa (context understanding)
+- RoBERTa with LoRa PEFT (context understanding)
 
 - BiLSTM (sequence and sentiment learning)
+
+- Ensemble decision Model (stacking multiple models)
+
+- BART (Polite & Context aware Rephrasing)
 
 - Rule-based filters (edge cases & safety)
 
